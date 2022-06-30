@@ -1,0 +1,21 @@
+body {
+  background-color: salmon;
+}
+body ul {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0;
+}
+body ul li {
+  display: inline-block;
+}
+body ul li a {
+  text-decoration: none;
+  text-text-transform: none;
+}
+body div .parrafoPrincipal {
+  background-color: rgb(255, 226, 145);
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */

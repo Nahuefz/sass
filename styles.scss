@@ -1,0 +1,36 @@
+$bgcolor: salmon;
+
+
+body{
+
+    background-color: $bgcolor;
+
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 60px 0;
+    
+        li{
+            display: inline-block;
+    
+            a{
+                text:{
+                    decoration: none;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+    
+    div{  
+        .parrafoPrincipal{
+            background-color: rgb(255, 226, 145);
+            width: 900px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+}
+
