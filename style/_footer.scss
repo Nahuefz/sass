@@ -1,0 +1,22 @@
+footer{
+    background-color: antiquewhite;
+    padding: 30px;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+
+        li{
+            list-style-type: none;
+            text-transform: uppercase;
+            font-weight: 400;
+
+            a{
+                text-decoration: none;
+                color: rgb(206, 70, 70);
+                margin-right: 20px;
+            }
+        }
+    }
+}
