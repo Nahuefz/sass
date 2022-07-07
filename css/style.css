@@ -2,44 +2,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto:ital,wght@1,700&display=swap");
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 html {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(238, 214, 253);
-  scroll-behavior: smooth;
-}
+  font-family: 'Roboto', sans-serif;
+  background-color: #eed6fd;
+  scroll-behavior: smooth; }
 
 header {
   background-color: antiquewhite;
-  padding: 30px;
-}
-header nav {
-  width: 80%;
-  margin: 0 auto;
-}
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-header nav ul li {
-  list-style-type: none;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: rgb(206, 70, 70);
-  padding: 15px;
-  transition: 0.3s;
-  border-radius: 5px;
-}
-header nav ul li :hover {
-  background-color: #5fc2ba;
-  color: rgb(0, 0, 0);
-}
+  padding: 30px; }
+  header nav {
+    width: 80%;
+    margin: 0 auto; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      header nav ul li {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-weight: 400; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #ce4646;
+          padding: 15px;
+          transition: 0.3s;
+          border-radius: 5px; }
+        header nav ul li :hover {
+          background-color: #5fc2ba;
+          color: black; }
 
 .cabecera {
   display: flex;
@@ -47,59 +39,49 @@ header nav ul li :hover {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .contenido {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-.contenido .mascota {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-  width: 500px;
-  height: auto;
-}
-.contenido .mascota:hover {
-  box-shadow: 2px 2px 5px 2px #999;
-  transition: 0.5 ease-in-out;
-  transform: scale(1.1);
-}
-.contenido .mascota .imagenMascota {
-  width: 400px;
-  width: 400px;
-}
-.contenido .mascota h2 {
-  margin-top: 30px;
-}
+  align-items: center; }
+  .contenido .mascota {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    background-color: black; }
+    .contenido .mascota:hover {
+      box-shadow: 2px 2px 5px 2px #999;
+      transition: 0.5 ease-in-out;
+      transform: scale(1.1); }
+    .contenido .mascota .imagenMascota {
+      width: 400px;
+      width: 400px; }
+    .contenido .mascota h2 {
+      margin-top: 30px; }
 
 .titulo {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px;
-  font-size: 150%;
-}
+  font-size: 150%; }
 
 footer {
   background-color: antiquewhite;
-  padding: 30px;
-}
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-}
-footer ul li {
-  list-style-type: none;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-footer ul li a {
-  text-decoration: none;
-  color: rgb(206, 70, 70);
-  margin-right: 20px;
-}/*# sourceMappingURL=style.css.map */
+  padding: 30px; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end; }
+    footer ul li {
+      list-style-type: none;
+      text-transform: uppercase;
+      font-weight: 400; }
+      footer ul li a {
+        text-decoration: none;
+        color: #ce4646;
+        margin-right: 20px; }
