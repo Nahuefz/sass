@@ -71,16 +71,26 @@ header {
 
 footer {
   background-color: antiquewhite;
-  padding: 30px; }
-  footer ul {
+  padding: 30px;
+  display: flex;
+  max-width: 100%; }
+  footer .redes {
+    width: 50%;
     display: flex;
-    flex-direction: row;
     justify-content: end; }
-    footer ul li {
-      list-style-type: none;
-      text-transform: uppercase;
-      font-weight: 400; }
-      footer ul li a {
-        text-decoration: none;
-        color: #ce4646;
-        margin-right: 20px; }
+    footer .redes ul {
+      display: flex;
+      flex-direction: row; }
+      footer .redes ul li {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        justify-content: end; }
+        footer .redes ul li a {
+          text-decoration: none;
+          color: #ce4646;
+          margin-right: 20px; }
+  footer .subir {
+    display: flex;
+    justify-content: start;
+    width: 50%; }
