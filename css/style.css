@@ -51,8 +51,7 @@ header {
     margin-bottom: 30px;
     text-align: center;
     width: 500px;
-    height: auto;
-    background-color: black; }
+    height: auto; }
     .contenido .mascota:hover {
       box-shadow: 2px 2px 5px 2px #999;
       transition: 0.5 ease-in-out;
